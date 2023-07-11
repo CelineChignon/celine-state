@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+.header-logo {
+  width: 200px;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.coworkings-list {
+  display: flex;
+}
+
+.coworking-card {
+  width: 33.3%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.best-coworkings-list {
+  display: none;
+}
+
+.best-coworkings-section {
+  margin: 50px;
+}
